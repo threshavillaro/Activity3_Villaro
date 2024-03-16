@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sweet Scoops</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+    body {font-family: "Times New Roman", Georgia, Serif;}
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Playfair Display";
+      letter-spacing: 10px;
+    }
+    </style>
+    </head>
+    <body>
+
+        <!-- Navbar (sit on top) -->
+        <div class="w3-top">
+          <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:5px;">
+            <a href="#home" class="w3-bar-item w3-button">Sweet Scoops</a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+              <a href="#about" class="w3-bar-item w3-button">About</a>
+              <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+              <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Header -->
+        <header class="w3-display-container w3-content w3-wide" style="max-width:1000px;min-width:580px" id="home">
+          <img class="C:\Users\USER\Downloads.jpg" src="Description of my image" width="1000" height="573">
+          <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+          </div>
+        </header>
+        
+        <!-- Page content -->
+        <div class="w3-content" style="max-width:1000px">
+        
+          <!-- About Section -->
+          <div class="w3-row w3-padding-64" id="about">
+            <div class="w3-col m6 w3-padding-large w3-hide-small">
+             <img src="C:\Users\USER\Downloads.jpg" class="w3-round w3-image" alt="Description of my image" width="600" height="750">
+            </div>
+        
+            <div class="w3-col m6 w3-padding-large">
+              <h1 class="w3-center">About Sweet Scoops</h1><br>
+              <h5 class="w3-center">Serving since 2022</h5>
+              <p class="w3-large">Welcome to Sweet Scoops Ice Cream Parlor, where every scoop is crafted with love and passion for the sweetest moments in life. Established in the year 2022 by Thresha Villaro, Sweet Scoops has been serving up delightful frozen treats to our community for 2 years. At Sweet Scoops, we believe in the simple joy of indulging in delicious ice cream. Our mission is to create a welcoming atmosphere where families and friends can gather to share laughter and create lasting memories over scoops of their favorite flavors.</p>
+              <p class="w3-medium">Sweet Scoops is more than just an ice cream parlor – it's a place where community comes together. Whether you're celebrating a birthday, enjoying a family outing, or simply treating yourself to a midday pick-me-up, our friendly staff is here to make your experience truly unforgettable. </p>
+            </div>
+          </div>
+          
+          <hr>
+          
+          <!-- Menu Section -->
+          <div class="w3-row w3-padding-64" id="menu">
+            <div class="w3-col l6 w3-padding-large">
+              <h1 class="w3-center">Our Specialty</h1><br>
+              <h4>Mint Chocolate Chip Milkshake</h4>
+              <p class="w3-text-grey">Refreshing mint-flavored ice cream blended with chocolate chips and milk, creating a creamy and indulgent shake perfect for mint chocolate lovers.</p><br>
+            
+              <h4>Strawberry Shortcake Cone</h4>
+              <p class="w3-text-grey">Creamy strawberry ice cream layered with pieces of shortcake and fresh strawberry chunks, served in a crispy homemade waffle cone for a delightful summery treat.</p><br>
+            
+              <h4>Cookies and Cream Affogato</h4>
+              <p class="w3-text-grey">Creamy vanilla ice cream loaded with chunks of chocolate sandwich cookies, served with a shot of hot espresso poured over the top, creating a delightful blend of rich flavors and contrasting temperatures.</p><br>
+            
+              <h4>Salted Caramel Swirl Ice Cream Sandwich</h4>
+              <p class="w3-text-grey">Smooth vanilla ice cream swirled with ribbons of rich salted caramel sandwiched between two homemade chocolate chip cookies, offering a perfect balance of sweet and salty flavors.</p><br>
+            
+              <h4>Chocolate Peanut Butter Brownie Sundae</h4>
+              <p class="w3-text-grey">Rich chocolate ice cream layered with chunks of gooey brownie and creamy peanut butter sauce, topped with whipped cream and a drizzle of chocolate fudge, creating a decadent dessert experience.</p>    
+            </div>
+            
+            <div class="w3-col l6 w3-padding-large">
+              <img src="C:\Users\USER\Downloads.jpg" class="w3-round w3-image" alt="Menu" style="width:100%">
+            </div>
+          </div>
+        
+          <hr>
+        
+          <!-- Contact Section -->
+          <div class="w3-container w3-padding-64" id="contact">
+            <h1>Contact</h1><br>
+            <p>We offer full-service catering for any event, large or small. Do not hesitate to contact us.</p>
+            <p class="w3-text-brown w3-large"><b>Sweet Scoops, Masterson Avenue, Uptown Cagayan de Oro</b></p>
+            <p>You can also contact us by phone 09054396301.</p>
+            <form action="/action_page.php" target="_blank">
+              <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required="" name="Name"></p>
+              <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required="" name="People"></p>
+              <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required="" name="date" value="2020-11-16T20:00"></p>
+              <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required="" name="Message"></p>
+              <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+            </form>
+          </div>
+          
+        <!-- End page content -->
+        </div>
+        
+        <!-- Footer -->
+        <footer class="w3-center w3-light-grey w3-padding-32">
+          <p>Powered by @threshavillaro</p>
+        </footer>
+        
+        
+        </body>
+
+
